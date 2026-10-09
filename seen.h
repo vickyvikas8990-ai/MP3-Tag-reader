@@ -43,7 +43,7 @@ OperationType check_operation_type(char opt);
 Status read_and_validate_view_args(char *argv[], _ViewInfo *view);
 
 /* Perform the encoding */
-Status do_view(char*argv[],_ViewInfo*view);
+Status do_view(_ViewInfo*view);
 Status do_validate_frame(char frameid[]);
 
  //Get File pointers for i/p and o/p files 

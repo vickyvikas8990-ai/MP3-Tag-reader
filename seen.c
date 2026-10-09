@@ -40,7 +40,7 @@ Status read_and_validate_view_args(char *argv[], _ViewInfo *view)
     return e_success;
 
 }
-Status do_view(char*argv[],_ViewInfo*view)
+Status do_view(_ViewInfo*view)
 {
     fseek(view->fp_mp3,10,SEEK_SET);      /* Move offset to 10th pos */
 
